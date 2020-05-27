@@ -1,7 +1,7 @@
 Python Project: Appliance Store 
 
-This project consists several python files which can be used to create a virtual store.
-The projext includes diffrent python functions and elemets such as inheritance on objects, manipulation of diffrent inputs, creation of objects from said inputs,GUI using tkinter library and more.
+This project consists several python files which can be used to create an appliance Store.
+The project includes diffrent python functions and elemets such as inheritance of objects, manipulation of diffrent inputs, creation of objects from said inputs,GUI using tkinter library and more.
 The main goal of this project is gaining exprience using Python.
 
 Getting Started:
