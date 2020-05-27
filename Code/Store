@@ -81,18 +81,6 @@ class Store:
 
 
 def main():
-    #    cusFile = "custmer.csv"
-    #   ProdFile = "proudact.csv"
-    #  PhoneFile = "phone.csv"
-    # RefrigeratorFile = "refrigerator.csv"
-    #    s1 = Store(cusFile, ProdFile, PhoneFile, RefrigeratorFile)
-    #    print(s1.cus_list)
-    #   print(s1.prod_list)
-    #   s1.find_phone_by_size(6, 7)
-    #   s1.count_product(Phone)
-    #   print("The details of sale: ")
-    #   s1.make_sale("11", "Ipad3")
-    #   s1.cus_list.print_lst()
     cusFile = "custmer.csv"
     ProdFile = "proudact.csv"
     PhoneFile = "phone.csv"
@@ -101,10 +89,14 @@ def main():
     c = Coupon("PERCENTAGE", 4, 1, "New Year")
     ross = s1.cus_list.find_cus("12")
     ross.add_Coupon(c)
+    print(s1.cus_list)
+    print(s1.prod_list
     s1.make_sale("12", "note8")
     s1.profit()
     s1.find_price_of_item("note8")
     s1.is_cus_in_list("12")
     s1.find_phone_by_size(6, 7)
+    s1.count_product(Phone)
+
 
 
